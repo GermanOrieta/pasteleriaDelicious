@@ -30,7 +30,7 @@ main{
     margin: 20px;
 }
 body {
-    background-color:#F47C7C;
+    background-image: linear-gradient(to top, #FAD4D4,#F47C7C);
 }
 
 ul{ 
@@ -187,6 +187,7 @@ footer {
     height: 70px;
     margin: 12px;
 }
+
 
 /* CELULAR */
 @media (min-width: 320px) and (max-width: 575px){
