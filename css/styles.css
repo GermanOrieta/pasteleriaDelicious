@@ -3,15 +3,6 @@
     padding: 0px;/* Margen interno */
 }
 
-header{
-    width: 100vw;
-}
-
-main{
-    width: 100vw;
-    height: 100vh;
-}
-
 .main__titulo {
     color: #FAD4D4;
     text-align: left;
@@ -30,7 +21,7 @@ main{
     margin: 20px;
 }
 body {
-    background-image: linear-gradient(to top, #FAD4D4,#F47C7C);
+    background-image: linear-gradient(to top, #F47C7C,#EF9F9F);
 }
 
 ul{ 
@@ -43,23 +34,22 @@ ul{
     font-family: 'Roboto', sans-serif;
     color: #FFF2F2;
 }
-.header__logo{
-    display: flex;
-    position: absolute;
-}
-.header__lista {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
+
+.header__color{
     background-color: #EF9F9F;
-    padding: 15px;
 }
 
-.header__nav{
-    display: block;
+.color__letra{
+    color:#FFF2F2;
 }
 
 a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF2F2;
+}
+
+span {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: #FFF2F2;
@@ -163,32 +153,6 @@ a {
     background-repeat: no-repeat;
 }
 
-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "derechos redes";
-    padding: 12px;
-}
-
-.footer__redes {
-    grid-area: redes;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.footer__derechos {
-    grid-area: derechos;
-}
-
-.footer__iconos {
-    width: 70px;
-    height: 70px;
-    margin: 12px;
-}
-
-
 /* CELULAR */
 @media (min-width: 320px) and (max-width: 575px){
 
@@ -203,26 +167,6 @@ footer {
                             "chef5"
                             "chef6";
     }
-
-    footer {
-        height: 100%;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: "derechos" 
-                            "none"
-                            "redes";
-    }
-    .footer__redes div {
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-    }
-
-    .header__logo{
-        display: flex;
-        position:relative
-    }
 }
 
 /* TABLET */
@@ -234,25 +178,5 @@ footer {
         grid-template-rows: 1fr 1fr 1fr; 
         grid-template-areas: "chef1 chef2 chef3"
                             "chef4 chef5 chef6"
-    }
-
-    footer {
-        height: 100%;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: "derechos" 
-                            "none"
-                            "redes";
-    }
-    .footer__redes div {
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-    }
-
-    .header__logo{
-        display: flex;
-        position:relative
     }
 }
