@@ -11,7 +11,10 @@
     margin: 30px;
     margin-left: 70px;
 }
-
+.card__titulo {
+    color: #FAD4D4;
+    font-family: 'Dancing Script', cursive;
+}
 /* font-size = tamaño de la letra */
 .main__imagen {
     width: 300px;
@@ -21,6 +24,9 @@
     margin: 20px;
 }
 body {
+    background-image: linear-gradient(to top, #F47C7C,#EF9F9F);
+}
+.card__color {
     background-image: linear-gradient(to top, #F47C7C,#EF9F9F);
 }
 
@@ -76,6 +82,14 @@ span {
     border-radius: 10%;
     margin: 20px;
     float: left;
+}
+.carro__img{
+    width: 1080px;
+    height: 566px;
+}
+.tarjeta__img{
+    width: 432px;
+    height: 200px;
 }
 .form__contacto{
     flex-direction: column;
