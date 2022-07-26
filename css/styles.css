@@ -54,6 +54,18 @@ span {
     font-family: 'Roboto', sans-serif;
     color: #FFF2F2;
 }
+
+.letra__pagcolor {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF2F2;
+}
+
+.letra__pag{
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+}
+
 .cocineros__imagen{
     width: 500px;
     border-radius: 10%;
