@@ -1,0 +1,146 @@
+@import "variables";
+@import "mediaqueries";
+
+*{
+    margin: 0px;/*Margen externo  */
+    padding: 0px;/* Margen interno */
+}
+
+.main{
+
+    &__titulo {
+        color:$color-titulo;
+        text-align: left;
+        font-size: 60px;
+        font-family: 'Dancing Script', cursive;
+        margin: 30px;
+        margin-left: 70px;
+    }
+
+    &__imagen {
+        width: 300px;
+        height: 500;
+        float: right;
+        border-radius: 10%;
+        margin: 20px;
+        }
+}
+
+.tarjeta{
+
+    &__titulo {
+        color:$color-titulo;
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    &__color {
+        background-image: linear-gradient(to top, $color-fondo,$color-header);
+    }
+}
+
+body {
+    background-image: linear-gradient(to top, $color-fondo, $color-header);
+}
+
+ul{ 
+    list-style: none;
+}
+
+.header__color{
+    background-color: $color-header;
+}
+
+.color__letra{
+    color: $color-letra;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: $color-letra;
+}
+
+span {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: $color-letra;
+}
+
+.letra{
+
+    &__pagcolor {
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        color: $color-letra;
+    }
+    
+    &__pag{
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+    }
+}
+
+.carro__img{
+    width: 1080px;
+    height: 566px;
+}
+
+.cocineros__grid{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-areas: "chef1 chef2 chef3"
+                        "chef4 chef5 chef6";
+    column-gap: 15px;
+    row-gap: 15px;
+
+    .chef1{
+        grid-area: chef1;
+        background-image: url("../resources/chef.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .chef2{
+        grid-area: chef2;
+        background-image: url("../resources/chef2.jpeg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .chef3{
+        grid-area: chef3;
+        background-image: url("../resources/chef3.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .chef4{
+        grid-area: chef4;
+        background-image: url("../resources/chef4.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .chef5{
+        grid-area: chef5;
+        background-image: url("../resources/chef5.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .chef6{
+        grid-area: chef6;
+        background-image: url("../resources/chef6.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

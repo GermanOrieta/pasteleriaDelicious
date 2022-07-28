@@ -1,0 +1,27 @@
+/* CELULAR */
+@media (min-width: 320px) and (max-width: 575px){
+
+    .cocineros__grid{
+        height: 100%;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+        grid-template-areas: "chef1"
+                            "chef2"
+                            "chef3"
+                            "chef4"
+                            "chef5"
+                            "chef6";
+    }
+}
+
+/* TABLET */
+
+@media (min-width: 576px) and (max-width: 992px){
+    .cocineros__grid{
+        height: 100%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr; 
+        grid-template-areas: "chef1 chef2 chef3"
+                            "chef4 chef5 chef6"
+    }
+}
