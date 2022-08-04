@@ -1,4 +1,5 @@
 /* COLORES */
+/* LETRAS */
 /* CELULAR */
 @media (min-width: 320px) and (max-width: 575px) {
   .cocineros__grid {
@@ -15,6 +16,12 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "chef1 chef2 chef3" "chef4 chef5 chef6"; } }
 
+/* EXTEND -- EXTENDER CODIGO */
+.formato-letra, a, span, .letra__pagcolor {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #FFF2F2; }
+
 * {
   margin: 0px;
   /*Margen externo  */
@@ -24,8 +31,8 @@
 .main__titulo {
   color: #FAD4D4;
   text-align: left;
-  font-size: 60px;
-  font-family: 'Dancing Script', cursive;
+  font-size: 4.375rem;
+  font-family: "Dancing Script", cursive;
   margin: 30px;
   margin-left: 70px; }
 
@@ -38,7 +45,7 @@
 
 .tarjeta__titulo {
   color: #FAD4D4;
-  font-family: 'Dancing Script', cursive; }
+  font-family: "Dancing Script", cursive; }
 
 .tarjeta__color {
   background-image: linear-gradient(to top, #F47C7C, #EF9F9F); }
@@ -55,24 +62,9 @@ ul {
 .color__letra {
   color: #FFF2F2; }
 
-a {
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  color: #FFF2F2; }
-
-span {
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  color: #FFF2F2; }
-
-.letra__pagcolor {
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  color: #FFF2F2; }
-
 .letra__pag {
   text-decoration: none;
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 .carro__img {
   width: 1080px;
