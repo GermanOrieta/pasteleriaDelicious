@@ -72,13 +72,20 @@ ul{
     color: $color-letra;
 }
 
-a {
+a{
     @extend .formato-letra;
 }
+
 
 span {
     @extend .formato-letra;
 }
+
+
+a:visited{
+    color: #bb62b1;
+}
+
 
 .letra{
 

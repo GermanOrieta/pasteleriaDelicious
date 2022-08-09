@@ -77,6 +77,9 @@ ul {
 .color__letra {
   color: #FFF2F2; }
 
+a:visited {
+  color: #bb62b1; }
+
 .letra__pag {
   text-decoration: none;
   font-family: "Roboto", sans-serif; }
