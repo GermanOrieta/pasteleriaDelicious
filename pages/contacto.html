@@ -21,6 +21,7 @@
 </head>
 <body>
     <header>
+        <!-- Barra de navegacion -->
         <nav class="navbar navbar-expand-lg header__color">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
@@ -52,8 +53,9 @@
         </nav>
     </header>
     <main class="vh-100"> 
-        <h1 class="main__titulo animate__animated animate__pulse text-center">Contacto</h1>
-        <section class="container">
+        <h1 class="main__titulo text-center">Contacto</h1>
+        <!-- Formulario bootstrap -->
+        <section>
             <div class="row g-3 justify-content-center mt-3 container-fluid">
                 <div class="col-lg-3 col-xs-12">
                     <input type="text" class="form-control letra__pag" placeholder="Nombre">
@@ -73,13 +75,15 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="12"></textarea>
                 </div>
             </div>
-            <div class="row g-3 mt-2 justify-content-center container-fluid">
-                <div class="col-lg-1 col-xs-12">
-                    <button type="button" class="btn header__color letra__pagcolor">Enviar</button>
+            <div class="row g-3 mt-2 justify-content-center">
+                <div class="d-grid gap-2 col-3 mx-auto">
+                    <button class="btn header__color letra__pagcolor" type="button">Enviar</button>
+                    <button class="btn header__color letra__pagcolor" type="button">Borrar</button>
                 </div>
             </div>
         </section>
     </main>
+    <!-- Pie de pagina -->
     <footer class="mt-5">
         <div class="container-fluid text-center">
             <div class="row p-6 pb-2 color__letra mx-center">

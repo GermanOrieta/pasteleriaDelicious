@@ -42,6 +42,10 @@
         background-size: cover;
         background-position: center;
         }
+    
+    &__titulo:hover{
+        transform: scale(1.5);
+    }
 }
 
 .tarjeta{
@@ -80,7 +84,9 @@ a{
 span {
     @extend .formato-letra;
 }
-
+a:hover{
+    color: aquamarine;
+}
 
 a:visited{
     color: #bb62b1;

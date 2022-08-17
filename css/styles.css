@@ -58,6 +58,9 @@
   background-size: cover;
   background-position: center; }
 
+.main__titulo:hover {
+  transform: scale(1.5); }
+
 .tarjeta__titulo {
   color: #FAD4D4;
   font-family: "Dancing Script", cursive; }
@@ -76,6 +79,9 @@ ul {
 
 .color__letra {
   color: #FFF2F2; }
+
+a:hover {
+  color: aquamarine; }
 
 a:visited {
   color: #bb62b1; }
